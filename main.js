@@ -16,3 +16,10 @@ btnForm.addEventListener('click', function(){
 btnMore.addEventListener('click', function(){
     alert("No hay más proyectos subidos por ahora")
 })
+
+let burger= document.querySelector('.burger-menu');
+let nav= document.querySelector('.main-list');
+burger-addEventListener('click', function(){
+    nav.classList.toggle('active')
+    burger.classList.toggle('active')
+})
